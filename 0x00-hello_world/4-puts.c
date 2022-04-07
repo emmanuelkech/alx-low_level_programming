@@ -3,8 +3,6 @@
 /**
  * main - Entry point
  *
- * Placing "\" makes it able for me to add another " in the string
- *
  * return - always zero
  */
 
