@@ -3,3 +3,4 @@
 2. **gcc -S $CFILE** This generates the assembly code (_-S_) of a C file that has been saved in the variable _$CFILE_ only. Note that at this phase, the extension of the output file is now _.s_ instead of _.c_ <br>
 3. **gcc $CFILE -o cisfun** This compiles a C file that has been saved in a variable _$CFILE_ and creates an executable (_-o_) named _cisfun_ <br>
 4. **#include <stdio.h>** Is usually the first line of the C file header. It imports very important C libraries. <br>
+5. **gcc -S -masm=intel $CFILE** This generates the assembly code in intel syntax (_-masm=intel_) of a C file that has been saved in the variable _$CFILE_ <br>
