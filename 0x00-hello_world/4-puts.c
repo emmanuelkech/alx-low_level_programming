@@ -5,7 +5,7 @@
  *
  * Placing "\" makes it able for me to add another " in the string
  *
- * return - always 0
+ * return - always zero
  */
 
 int main(void)
