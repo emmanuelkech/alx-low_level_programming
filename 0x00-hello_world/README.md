@@ -4,4 +4,4 @@
 3. **gcc $CFILE -o cisfun** This compiles a C file that has been saved in a variable _$CFILE_ and creates an executable (_-o_) named _cisfun_ <br>
 4. **#include <stdio.h>** Is usually the first line of the C file header. It is a very important C library. It includes _puts_, _printf_ <br>
 5. **gcc -S -masm=intel $CFILE** This generates the assembly code in intel syntax (_-masm=intel_) of a C file that has been saved in the variable _$CFILE_ <br>
-**include <stdlib.h>** Is another C library that has the _Write system Call_ <br>
+6. **include <stdlib.h>** Is another C library that has the _Write system Call_ <br>
