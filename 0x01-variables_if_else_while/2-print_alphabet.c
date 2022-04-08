@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - entry
@@ -10,10 +8,8 @@
 
 int main(void)
 {
-	char low_case;
-
-	while (low_case = 'a'; low_case <= 'z'; low_case++)
-		putchar(low_case);
+	for (char l = 'a'; l <= 'z'; ++l)
+		putchar(l);
 		putchar('\n');
 
 	return (0);
