@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char alphabets;
+	char low_case;
 
-	while (alphabets = 'a'; alphabets <= 'z'; alphabets++)
-		putchar(alphabets);
+	while (low_case = 'a'; low_case <= 'z'; low_case++)
+		putchar(low_case);
 		putchar('\n');
 
 	return (0);
