@@ -9,5 +9,5 @@
 - if the last digit of _n_ is greater than 5
 - if the last digit of _n_ is 0
 - if the last digit of _n_ is less than 6 and not 0
-- fiollowed by a new line<br>
+- followed by a new line<br>
 <br>
