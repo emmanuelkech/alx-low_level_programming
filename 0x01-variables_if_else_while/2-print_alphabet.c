@@ -8,8 +8,11 @@
 
 int main(void)
 {
-	for (char l = 'a'; l <= 'z'; ++l)
-		putchar(l);
+	char low[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+		putchar(low[i]);
 		putchar('\n');
 
 	return (0);
