@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - entry
@@ -11,9 +10,9 @@ int main(void)
 {
 	char alphabets;
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	while (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 		putchar(alphabets);
-		putchar(\n);
+		putchar('\n');
 
 	return (0);
 }
