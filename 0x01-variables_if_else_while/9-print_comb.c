@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of single-digit numbers with commas and spaces
+ * main - Prints single-digit numbers with commas and spaces
  *
  * Return: 0 (success)
  */
