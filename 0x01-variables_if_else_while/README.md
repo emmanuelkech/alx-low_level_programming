@@ -9,3 +9,6 @@
 - if the last digit of *n* is 0
 - if the last digit of *n* is less than 6 and not 0
 - followed by a new line<br>
+2. A program that prints the alphabet in lowercase, followed by a new line.<br>
+- You can only use the _putchar_ function
+- You can only use _putchar_ twice in your code<br>
