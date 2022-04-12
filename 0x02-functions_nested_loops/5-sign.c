@@ -5,8 +5,8 @@
  *
  * @n: an input character
  *
- * Return: 1 if > 0 and prints + || 
- * 0 if == 0 and prints 0 || 
+ * Return: 1 if > 0 and prints + ||
+ * 0 if == 0 and prints 0 ||
  * -1 if < 0 and prints -
  */
 
