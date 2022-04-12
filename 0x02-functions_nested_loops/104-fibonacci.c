@@ -19,7 +19,7 @@ int main(void)
 
 	for (i = 1; i < 91; i++)
 	{
-		pfintf(", %lu", k);
+		printf(", %lu", k);
 		k = k + j;
 		j = k - j;
 	}
