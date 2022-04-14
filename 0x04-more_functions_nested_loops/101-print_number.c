@@ -1,5 +1,4 @@
 #include "main.h"
-void print_integer(int m);
 
 /**
  * print_number - prints an integer
@@ -9,30 +8,29 @@ void print_integer(int m);
 
 void print_number(int n)
 {
-	if (n == 0)
-		_putchar('0');
-	else if (n < 0)
+	int d = 1, i = 0, ii = 0;
+
+	if (n < 0)
 	{
 		_putchar('-');
-		print_integer(n * -1);
+		n = -n;
 	}
-	else
-		print_integer(n);
-}
 
-/**
- * print_integer - for printing n
- *
- * @m: input unsigned integer
- */
+	while (n / d != 0)
+	{
+		d *= 10;
+		i++;
+	}
+	d = d / 10;
 
-void print_integer(int m)
-{
-	int i = 1000000000;
+	while (ii < i)
+	{
+		_putchar('0' + n / d);
+		n = n - (n / d) * d;
+		d = d / 10;
+		ii++;
+	}
 
-	for (; i >= 1; i /= 10)
-		if (m / i != 0)
-		{
-			_putchar((m / i) % 10 + '0');
-		}
+	if (i == 0)
+		_putchar('0' + n);
 }
