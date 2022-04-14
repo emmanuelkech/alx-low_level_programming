@@ -22,6 +22,7 @@ void print_number(int n)
 
 /**
  * print_integer - for printing n
+ *
  * @m: input unsigned integer
  */
 
