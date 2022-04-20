@@ -22,7 +22,7 @@ void rev_string(char *s)
 	}
 
 	temp = len - 1;
-	for (i= 0; i < len; ++i, --temp)
+	for (i = 0; i < len; ++i, --temp)
 	{
 		s[i] = ptr[temp];
 	}
