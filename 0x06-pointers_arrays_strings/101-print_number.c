@@ -10,37 +10,16 @@
 
 void print_number(int n)
 {
-	int temp, temp2, cnt, div, result, i;
-
-	cnt = 0;
-	div = 1;
+	unsigned int i = n;
 
 	if (n < 0)
 	{
-		_putchar('-');
+		_putchar(45);
+		i = -i;
 	}
-	else
+	if (i / 10)
 	{
-		temp = n;
-		while (temp)
-		{
-			temp /= 10;
-			++cnt;
-		}
-		temp2 = cnt;
-		while (temp2 > 1)
-		{
-			div *= 10;
-			--temp2;
-		}
-		for (i = 0; i < cnt; ++i)
-		{
-			result = n / div;
-			if (result < 0)
-				result *= -1;
-			_putchar(result + '0');
-			n %= div;
-			div /= 10;
-		}
+		print_number(i / 10);
 	}
+	_putchar(i % 10 + '0');
 }
