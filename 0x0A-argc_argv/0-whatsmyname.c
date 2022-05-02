@@ -6,7 +6,7 @@
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * Retur: 0
+ * Return: 0
  */
 
 int main(int argc __attribute__((unused)), char *argv[])
