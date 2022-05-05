@@ -59,7 +59,7 @@ int count_words(char *str)
  *
  * @str: the string to be split
  *
- * Returns: If str = NULL, str = "", || the function fails - NULL
+ * Return: If str = NULL, str = "", || the function fails - NULL
  * otherwise - a pointer to an array of strings (words)
  */
 
