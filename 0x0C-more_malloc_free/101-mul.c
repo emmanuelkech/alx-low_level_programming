@@ -34,7 +34,7 @@ int find_len(char *str)
  * Description: If there is insufficient space, the function exits
  * with a status of 98.
  *
- * Return: A pointer to the array.
+ * Return: a pointer to the array.
  */
 char *create_xarray(int size)
 {
@@ -60,7 +60,7 @@ char *create_xarray(int size)
  *
  * @str: the string of numbers to be iterated through
  *
- * Return: a pointer to the next non-zero element.
+ * Return: a pointer to the next non-zero element
  */
 char *iterate_zeroes(char *str)
 {
@@ -71,12 +71,12 @@ char *iterate_zeroes(char *str)
 }
 
 /**
- * get_digit - converts a digit character to the corresponding int
+ * get_digit - converts a digit character to a corresponding int.
  *
  * @c: the character to be converted
  *
  * Description: if c is a non-digit, the function exits with a
- * status of 98.
+ * status of 98
  *
  * Return: the converted int.
  */
@@ -94,7 +94,7 @@ int get_digit(char c)
 }
 
 /**
- * get_prod - Multiplies a string of numbers by a single digit
+ * get_prod - multiplies a string of numbers by a single digit.
  *
  * @prod: the buffer to store the result
  * @mult: the string of numbers
@@ -190,12 +190,12 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * main - multiplies two positive numbers
  *
  * @argv: the number of arguments passed to the program
- * @argc: the array of pointers to the arguments
+ * @argc: an array of pointers to the arguments
  *
- * Description: If the number of arguments is incorrect or one number
+ * Description: if the number of arguments is incorrect or one number
  * contains non-digits, the function exits with a status of 98.
  *
- * Return: always 0
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
