@@ -238,5 +238,5 @@ int main(int argc, char *argv[])
 	free(next_prod);
 	free(final_prod);
 
-	feturn (0);
+	return (0);
 }
