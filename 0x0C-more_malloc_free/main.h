@@ -7,3 +7,4 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void _puts(char *str);
 int _atoi(const char *s);
 void print_int(unsigned long int n);
+int main(int argc, char const *argv[]);
