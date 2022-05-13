@@ -15,7 +15,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	int num1, num2;
 	char *op;
 
-	if (arg != 4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
